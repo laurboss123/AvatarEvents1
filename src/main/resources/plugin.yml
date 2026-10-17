@@ -1,0 +1,13 @@
+name: AvatarEvents
+version: 1.0.0
+main: ro.avatar.events.AvatarEvents
+api-version: '1.21'
+description: Comete si eclipse pentru serverul Avatar
+commands:
+  avatarevent:
+    description: Porneste/opreste evenimente
+    usage: /avatarevent <start|stop|status> [comet|solar|lunar] [minute]
+    permission: avatar.admin
+permissions:
+  avatar.admin:
+    default: op
